@@ -1,6 +1,8 @@
 # Takeaway Analytics
 
 **A Personal, Work-Context Driven Analytics Product (Real-World Data)**
+> An end-to-end analytics product that turns real-world behavioral data into business insights using Python, SQL-style modeling, and Power BI.
+
 
 ---
 
