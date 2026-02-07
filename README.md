@@ -1,135 +1,151 @@
-Takeaway Analytics
+# Takeaway Analytics
 
-A Personal, Work-Context Driven Analytics Product (Real-World Data)
+**A Personal, Work-Context Driven Analytics Product (Real-World Data)**
 
-Why this project is different
+---
 
-This is an end-to-end analytics product built on my own real food delivery and work roster data (anonymized).
-Instead of following a common tutorial dataset, this project proves my ability to:
+## Why this project is different
 
-clean messy multi-source data,
+This is an **end-to-end analytics product** built on **my own real food delivery and work roster data (anonymized)**.
 
-engineer business features,
+Instead of following a common tutorial dataset, this project demonstrates my ability to:
 
-validate hypotheses,
+- **clean messy multi-source data**
+- **engineer business features**
+- **validate hypotheses**
+- **deliver insights through an interactive Power BI decision layer**
 
-and deliver insights through an interactive Power BI decision layer.
+---
 
-Business questions
+## Business questions
 
-Baseline: What does my ordering and spending behavior look like over time?
+1. **Baseline**  
+   What does my ordering and spending behavior look like over time?
 
-Work context: Does roster/shift context explain behavior better than weekdays/weekends?
+2. **Work context**  
+   Does roster / shift context explain behavior better than weekdays / weekends?
 
-Cash-flow: Do payday and rent deadlines measurably change spending?
+3. **Cash-flow**  
+   Do payday and rent deadlines measurably change spending?
 
-Food preference: What do I eat, and how do food preferences shift with context?
+4. **Food preference**  
+   What do I eat, and how do food preferences shift with context?
 
-What you can review (verification-friendly)
+---
 
-Power BI dashboard (4 pages): Executive Overview · Work Context Impact · Cash-Flow Effects · Food Preference (NLP)
+## What you can review (verification-friendly)
 
-Reports: data quality report, insight summaries, assumptions & limitations
+- **Power BI dashboard (4 pages)**  
+  Executive Overview · Work Context Impact · Cash-Flow Effects · Food Preference (NLP)
 
-Reusable pipeline scripts: raw → clean → derived outputs (BI-ready)
+- **Reports**  
+  Data quality report, insight summaries, assumptions & limitations
 
-Data sources (anonymized)
+- **Reusable pipeline scripts**  
+  Raw → clean → derived outputs (BI-ready)
 
-Food delivery order history from multiple platforms (e.g., Deliveroo, HungryPanda)
+---
 
-Work roster (shift start/end/type, hours)
+## Data sources (anonymized)
 
-Sampled menu items (manually curated) for interpretable NLP features
+- **Food delivery order history** from multiple platforms (e.g., Deliveroo, HungryPanda)
+- **Work roster** (shift start / end / type, hours)
+- **Sampled menu items** (manually curated) for interpretable NLP features
 
-Note: Raw personal data is not published for privacy. The repo includes data dictionaries, processing scripts, and derived outputs so results are reproducible without exposing sensitive details.
+> **Note**  
+> Raw personal data is not published for privacy.  
+> This repository includes **data dictionaries, processing scripts, and derived outputs** so results are reproducible without exposing sensitive details.
 
-Repository structure
+---
 
-data/raw/ – original exports (excluded or anonymized)
+## Repository structure
 
-data/clean/ – cleaned, standardized tables
+data/
+raw/ # original exports (excluded or anonymized)
+clean/ # cleaned, standardized tables
+derived/ # star schema, enriched datasets, KPI tables, NLP features
 
-data/derived/ – star schema, enriched datasets, KPI tables, NLP features
+src/ # cleaning, feature engineering, NLP utilities
+reports/ # data quality + insight write-ups (business-readable)
+powerbi/ # dashboard screenshots
 
-src/ – cleaning, feature engineering, NLP utilities
 
-reports/ – data quality + insights (business-readable)
+---
 
-powerbi/ – dashboard file / screenshots
+## Pipeline overview
 
-Pipeline overview
+### Data cleaning & schema unification
+- Timestamp normalization
+- Missing value handling
+- Duplicate field resolution
+- Anomaly flags (e.g., delivery time issues)
 
-Data cleaning & schema unification
+### Analytics modeling
+- **Star-schema inspired structure** (fact + dimensions) for BI consumption
 
-timestamp normalization, missing value handling, duplicate field resolution
+### Context enrichment (roster)
+- Join orders to roster by order date/time
+- Derive shift-based behavioral features
 
-anomaly flags (delivery time issues, inconsistencies)
+### NLP features (menu sampling)
+- Rule-based categorization
+- Interpretable food signals (rice / fried / soup / noodle, etc.)
 
-Analytics modeling
+### Decision layer
+- **Power BI dashboard** built for stakeholder-style consumption
 
-star-schema inspired structure (fact + dimensions) for BI consumption
+---
 
-Context enrichment (roster)
+## Dashboard walkthrough (how to talk through it)
 
-join orders to roster at order-date/time to derive shift features
-
-NLP features (menu sampling)
-
-rule-based categorization to extract interpretable signals (rice/fried/soup/noodle etc.)
-
-Decision layer
-
-Power BI dashboard built for stakeholder-style consumption
-
-Dashboard walkthrough (how to talk through it)
-Page 1 — Executive Overview
-
+### Page 1 — Executive Overview
 Establishes baseline behavior: orders, spend, AOV, median delivery experience, and platform split.
 
-Page 2 — Work Context Impact (Key differentiator)
+### Page 2 — Work Context Impact (**key differentiator**)
+Replaces weekday/weekend assumptions with **roster-driven context**, explaining behavior by shift type and post-shift ordering.
 
-Replaces weekday/weekend assumptions with roster-driven context to explain behavior by shift type and post-shift ordering.
+### Page 3 — Cash-Flow Effects (**hypothesis testing**)
+- No payday spending spike  
+- Moderate median spend contraction near rent deadlines
 
-Page 3 — Cash-Flow Effects (Hypothesis testing)
+### Page 4 — Food Preference (NLP)
+Shows context-driven food signals and an interpretable **Comfort Food Score**  
+(built from category ratios such as rice / fried / soup) to approximate recovery-oriented consumption after shifts.
 
-Tests payday and rent assumptions:
+---
 
-No payday spending spike
+## Key insights (summary)
 
-Moderate median spend contraction near rent deadlines
+- **Behavior is work-context driven, not calendar-driven**
+- **Spending is budget-stable** (no payday spike), with controlled adjustment near fixed expenses
+- **Food choices shift with context**, indicating functional / recovery-oriented consumption
 
-Page 4 — Food Preference (NLP)
+---
 
-Shows context-driven food signals and an interpretable Comfort Food Score (built from category ratios such as rice/fried/soup) to approximate recovery-oriented consumption after shifts.
+## Limitations (transparent & professional)
 
-Key insights (summary)
+- **Menu sampling**  
+  Up to five representative items per restaurant were used to keep scope manageable
 
-Behavior is work-context driven, not calendar-driven.
+- **Vocabulary coverage**  
+  Rule-based NLP may miss semantically equivalent terms (e.g., “chow mein” as noodle)
 
-Spending appears budget-stable (no payday spike), with controlled adjustment near fixed expenses.
+- Findings focus on **relative patterns**, not absolute preference ground truth
 
-Food choices shift with context, indicating functional/recovery-oriented consumption.
+---
 
-Limitations (transparent & professional)
+## Future improvements
 
-Menu sampling: up to five representative items per restaurant were used to keep scope manageable; category ratios reflect sampled signals rather than full menus.
+- Expand menu coverage or automate ingestion
+- Add synonym dictionary or embedding-based matching
+- Automate refresh scheduling for derived tables and dashboard outputs
 
-Vocabulary coverage: rule-based NLP may miss semantically equivalent terms (e.g., “chow mein” as noodle), leading to conservative estimates in some categories.
+---
 
-Findings focus on relative patterns rather than absolute preference ground truth.
+## How to refresh (end-to-end system)
 
-Future improvements
-
-Expand menu coverage or automate ingestion
-
-Add synonym dictionary or embedding-based matching for better recall
-
-Add automated refresh scheduling for derived tables and dashboard outputs
-
-How to refresh (end-to-end system)
-
-Drop new exports into data/raw/ (anonymized)
-
-Run feature pipeline scripts in src/ to regenerate data/clean/ and data/derived/
-
-Refresh Power BI to pick up updated outputs
+1. Drop new exports into `data/raw/` (anonymized)
+2. Run feature pipeline scripts in `src/` to regenerate:
+   - `data/clean/`
+   - `data/derived/`
+3. Refresh Power BI to load updated outputs
