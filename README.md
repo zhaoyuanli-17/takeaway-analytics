@@ -47,6 +47,25 @@ Instead of following a common tutorial dataset, this project demonstrates my abi
   Raw → clean → derived outputs (BI-ready)
 
 ---
+## 📊 Power BI Dashboard Preview
+
+### Page 1 — Executive Overview
+![Executive Overview](powerbi/screenshots/01_executive_overview.png)
+
+---
+
+### Page 2 — Work Context Impact
+![Work Context Impact](powerbi/screenshots/02_work_context_impact.png)
+
+---
+
+### Page 3 — Cash-Flow Effects
+![Cash-Flow Effects](powerbi/screenshots/03_cashflow_effects.png)
+
+---
+
+### Page 4 — Food Preference (NLP)
+![Food Preference (NLP)](powerbi/screenshots/04_food_preference_nlp.png)
 
 ## Data sources (anonymized)
 
