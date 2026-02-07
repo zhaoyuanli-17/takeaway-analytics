@@ -1,0 +1,161 @@
+restaurant,item_name,item_price,spicy,noodles,rice,fried,soup,vegan
+Charllies,beef chow mein,13.0,0,0,0,0,0,0
+Charllies,chicken fried rice,13.0,0,0,1,1,0,0
+Charllies,catonese style stwed beef,13.5,0,0,0,0,0,0
+Charllies,spice box,10.0,0,0,0,0,0,0
+Charllies,pork chow mein,13.0,0,0,0,0,0,0
+Charllies,pad thai,14.0,0,0,0,0,0,0
+YGF Malatang,large noodle soup,19.0,0,1,0,0,1,0
+YGF Malatang,pan fried pork dumplings,10.8,0,0,0,1,0,0
+YGF Malatang,beef fired rice,13.0,0,0,1,0,0,0
+YGF Malatang,wonton soup,8.5,0,0,0,0,1,0
+YGF Malatang,crispy panfried beef pancake,7.0,0,0,0,1,0,0
+Xian Street Food,Laoganma-Fried Rice,16.0,0,0,1,1,0,0
+Xian Street Food,deep fried dumplngs,8.0,0,0,0,1,0,0
+Xian Street Food,House Special Fried Rice,17.5,0,0,1,1,0,0
+Xian Street Food,Xi¡¯an Famous Biang Biang Noodles,16.0,0,1,0,0,0,0
+Xian Street Food,spice box,9.5,0,0,0,0,0,0
+Xian Street Food,phad thai,16.0,0,0,0,0,0,0
+ChiyaD2,Mixed D?ner (chicken + beef),10.9,0,0,0,0,0,0
+ChiyaD3,house salad,8.5,0,0,0,0,0,0
+ChiyaD4,Chicken D?ner (pita),10.9,0,0,0,0,0,0
+ChiyaD5,fries,4.5,0,0,0,0,0,0
+ChiyaD6,Beef D?ner (pita),10.9,0,0,0,0,0,0
+Zambrero,Regular Classic Burrito,11.95,0,0,0,0,0,0
+Zambrero,Big Classic Burrito,17.9,0,0,0,0,0,0
+Zambrero,Small Classic Burrito,8.95,0,0,0,0,0,0
+Zambrero,Taco (soft or hard shell),5.5,0,0,0,0,0,0
+Zambrero,Regular Nachos,12.85,0,0,0,0,0,0
+Sushida,Tempura California Roll,18.5,0,0,0,1,0,0
+Sushida,Chicken Katsu Curry,18.95,0,0,0,0,0,0
+Sushida,Seafood Ramen,19.5,0,1,0,0,0,0
+Sushida,Yaki Soba (stir-fry noodles),18.95,0,1,0,0,0,0
+Vice Pizza,12¡å Margh (Margherita),14.5,0,0,0,0,0,0
+Vice Pizza,12¡å Vice Pep (Pepperoni),16.5,0,0,0,0,0,0
+Vice Pizza,16¡å Sweet Meat,25.0,0,0,0,0,0,0
+Vice Pizza,Lemon Pepper Wings,13.5,0,0,0,0,0,0
+Vice Pizza,fries,5.0,0,0,0,0,0,0
+Fired Up Pizza,Margherita Pizza,13.0,0,0,0,0,0,0
+Fired Up Pizza,Pepperoni Pizza,15.0,0,0,0,0,0,0
+Fired Up Pizza,BBQ Chicken Pizza,16.0,0,0,0,0,0,0
+Fired Up Pizza,Garlic Bread,5.0,0,0,0,0,0,0
+Fired Up Pizza,Chips,4.0,0,0,0,0,0,0
+Taste Of HK,Roast Duck Rice,14.0,0,0,1,0,0,0
+Taste Of HK,Char Siu Rice,13.0,0,0,1,0,0,0
+Taste Of HK,Sweet & Sour Pork,15.0,0,0,0,0,0,0
+Taste Of HK,Beef Chow Mein,13.0,0,0,0,0,0,0
+Taste Of HK,Wonton Soup,6.0,0,0,0,0,1,0
+Shuppa,Tonkotsu Ramen,15.0,0,1,0,0,0,0
+Shuppa,Spicy Miso Ramen,15.0,1,1,0,0,0,0
+Shuppa,Chicken Karaage,7.0,0,0,0,0,0,0
+Shuppa,Gyoza,6.0,0,0,0,0,0,0
+Shuppa,Vegetable Ramen,14.0,0,1,0,0,0,0
+Marks & Spencer,Chicken Caesar Salad,6.0,0,0,0,0,0,0
+Marks & Spencer,Sushi Platter,9.0,0,0,0,0,0,0
+Marks & Spencer,Lasagne,8.0,0,0,0,0,0,0
+Marks & Spencer,Sandwich Meal Deal,5.0,0,0,0,0,0,0
+Marks & Spencer,Fruit Pot,3.0,0,0,0,0,0,0
+Little Sichuan,Mapo Tofu,14.0,0,0,0,0,0,1
+Little Sichuan,Sichuan Spicy Chicken,16.0,1,0,0,0,0,0
+Little Sichuan,Beef in Chili Oil,16.0,1,0,0,0,0,0
+Little Sichuan,Dan Dan Noodles,13.0,0,1,0,0,0,0
+Little Sichuan,Fried Rice,12.0,0,0,1,1,0,0
+Pizza Hut,Pepperoni Pizza,14.0,0,0,0,0,0,0
+Pizza Hut,Margherita Pizza,12.0,0,0,0,0,0,0
+Pizza Hut,BBQ Meat Feast,16.0,0,0,0,0,0,0
+Pizza Hut,Chicken Wings,8.0,0,0,0,0,0,0
+Pizza Hut,Garlic Bread,6.0,0,0,0,0,0,0
+KFC,Zinger Burger,6.0,0,0,0,0,0,0
+KFC,Boneless Banquet,12.0,0,0,0,0,0,0
+KFC,Original Recipe Chicken,8.0,0,0,0,0,0,0
+KFC,Popcorn Chicken,5.0,0,0,0,0,0,0
+KFC,Chips,3.0,0,0,0,0,0,0
+McDonald's,Big Mac,6.0,0,0,0,0,0,0
+McDonald's,McChicken,5.0,0,0,0,0,0,0
+McDonald's,Chicken Nuggets,6.0,0,0,0,0,0,0
+McDonald's,Fries,3.0,0,0,0,0,0,0
+McDonald's,McFlurry,4.0,0,0,0,0,0,0
+Sichuan Chili King,Spicy Beef Hotpot,18.0,1,0,0,0,0,0
+Sichuan Chili King,Kung Pao Chicken,15.0,0,0,0,0,0,0
+Sichuan Chili King,Mapo Tofu,14.0,0,0,0,0,0,1
+Sichuan Chili King,Dry Fried Green Beans,13.0,0,0,0,1,0,0
+Sichuan Chili King,Egg Fried Rice,11.0,0,0,1,1,0,0
+Camile Thai,Green Curry,14.0,0,0,0,0,0,0
+Camile Thai,Pad Thai,13.0,0,0,0,0,0,0
+Camile Thai,Red Curry,14.0,0,0,0,0,0,0
+Camile Thai,Massaman Curry,15.0,0,0,0,0,0,0
+Camile Thai,Spring Rolls,6.0,0,0,0,0,0,0
+Da Mimmo Pizza,Margherita,13.0,0,0,0,0,0,0
+Da Mimmo Pizza,Diavola,15.0,0,0,0,0,0,0
+Da Mimmo Pizza,Quattro Formaggi,15.0,0,0,0,0,0,0
+Da Mimmo Pizza,Prosciutto Pizza,16.0,0,0,0,0,0,0
+Da Mimmo Pizza,Tiramisu,6.0,0,0,0,0,0,0
+Perfect Pizza Dublin,Pepperoni Pizza,12.0,0,0,0,0,0,0
+Perfect Pizza Dublin,Doner Kebab,10.0,0,0,0,0,0,0
+Perfect Pizza Dublin,Chicken Burger,8.0,0,0,0,0,0,0
+Perfect Pizza Dublin,Garlic Bread,5.0,0,0,0,0,0,0
+Perfect Pizza Dublin,Chips,4.0,0,0,0,0,0,0
+Tatami,Salmon Nigiri,6.0,0,0,0,0,0,0
+Tatami,California Roll,8.0,0,0,0,0,0,0
+Tatami,Chicken Teriyaki,14.0,0,0,0,0,0,0
+Tatami,Tempura Prawns,8.0,0,0,0,1,0,0
+Tatami,Miso Soup,3.0,0,0,0,0,1,0
+Reyna,Chicken Shawarma,12.0,0,0,0,0,0,0
+Reyna,Lamb Shawarma,13.0,0,0,0,0,0,0
+Reyna,Falafel Wrap,10.0,0,0,0,0,0,0
+Reyna,Hummus & Pita,6.0,0,0,0,0,0,0
+Reyna,Baklava,5.0,0,0,0,0,0,0
+Zakura,Salmon Sushi Set,14.0,0,0,0,0,0,0
+Zakura,Chicken Katsu Curry,15.0,0,0,0,0,0,0
+Zakura,Tempura Udon,14.0,0,1,0,1,0,0
+Zakura,Gyoza,7.0,0,0,0,0,0,0
+Zakura,Miso Soup,3.0,0,0,0,0,1,0
+Eatokyo,Bento Box,14.0,0,0,0,0,0,0
+Eatokyo,Chicken Teriyaki,13.0,0,0,0,0,0,0
+Eatokyo,Salmon Sushi,12.0,0,0,0,0,0,0
+Eatokyo,Yakisoba,13.0,0,0,0,0,0,0
+Eatokyo,Edamame,5.0,0,0,0,0,0,0
+Wakami Sushi,Salmon Roll,9.0,0,0,0,0,0,0
+Wakami Sushi,Tuna Roll,9.0,0,0,0,0,0,0
+Wakami Sushi,Tempura Roll,10.0,0,0,0,1,0,0
+Wakami Sushi,Sushi Platter,20.0,0,0,0,0,0,0
+Wakami Sushi,Miso Soup,3.0,0,0,0,0,1,0
+Rico's,Beef Burrito,12.0,0,0,0,0,0,0
+Rico's,Chicken Burrito,11.0,0,0,0,0,0,0
+Rico's,Nachos,10.0,0,0,0,0,0,0
+Rico's,Quesadilla,10.0,0,0,0,0,0,0
+Rico's,Churros,5.0,0,0,0,0,0,0
+Boston Pizza,Pepperoni Pizza,15.0,0,0,0,0,0,0
+Boston Pizza,BBQ Chicken Pizza,16.0,0,0,0,0,0,0
+Boston Pizza,Pasta Carbonara,14.0,0,0,0,0,0,0
+Boston Pizza,Chicken Wings,9.0,0,0,0,0,0,0
+Boston Pizza,Garlic Bread,6.0,0,0,0,0,0,0
+Hunan Spicy,Hunan Beef,16.0,0,0,0,0,0,0
+Hunan Spicy,Spicy Chicken,15.0,1,0,0,0,0,0
+Hunan Spicy,Chili Fish,18.0,1,0,0,0,0,0
+Hunan Spicy,Stir Fried Vegetables,13.0,0,0,0,1,0,0
+Hunan Spicy,Fried Rice,12.0,0,0,1,1,0,0
+hei gaga,chicken wit noodles,8.0,0,1,0,0,0,0
+nan,sausage chinese savior crepe,11.99,0,0,0,0,0,0
+nan,roujiamo,10.99,0,0,0,0,0,0
+nan,braised pork rice,11.99,0,0,1,0,0,0
+nan,beef hot noodles soup,14.99,1,1,0,0,1,0
+nan,handmade fresh meat wontons,12.0,0,0,0,0,0,0
+biang biang,diced pork gungun noodles,13.75,0,1,0,0,0,0
+nan,pork ince zhajiang noodles,13.75,0,1,0,0,0,0
+nan,hot and sour noodle soup,12.1,1,1,0,0,1,0
+nan,beef dumplings*6,9.9,0,0,0,0,0,0
+chuanjiu xiang,suancai fish,25.85,0,0,0,0,0,0
+nan,tofu with beef,22.99,0,0,0,0,0,1
+nan,spicy fried chicken,14.88,1,0,0,1,0,0
+nan,Mapo Tofu,16.5,0,0,0,0,0,1
+nan,Stir Fried green beans,19.25,0,0,0,1,0,0
+nan,house kimichi dumplings,12.1,0,0,0,0,0,0
+bwx,blackpepper beef claypot rice,16.49,0,0,1,0,0,0
+nan,tomato and picked cabbage beef noodle,15.39,0,1,0,0,0,0
+nan,stewed rice with sausage,14.99,0,0,1,0,0,0
+nan,beef fried noodles,15.29,0,1,0,1,0,0
+nan,shrimp fried rice,15.39,0,0,1,1,0,0
+ywm,stewed beef noodles,16.39,0,1,0,0,0,0
+nan,sour and spicy beef noodles,16.39,1,1,0,0,0,0
+nan,beef fried noodles,15.95,0,1,0,1,0,0

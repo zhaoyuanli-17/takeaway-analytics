@@ -1,0 +1,78 @@
+# NLP Feature Engineering – Methodology & Limitations
+
+This section documents the approach used to extract food preference signals from menu
+item data, as well as known limitations and potential future improvements.
+
+---
+
+## Methodology
+
+Given the limited size and structure of the dataset, a lightweight, rule-based NLP
+approach was adopted instead of complex language models.
+
+### Data Source
+- Menu item names
+- Optional item tags provided by the platform or manually curated
+
+### Feature Extraction Approach
+
+Text from `item_name` and `tags` was normalized (lowercasing, trimming) and scanned for
+predefined keyword patterns to generate binary preference indicators, including:
+
+- Spicy
+- Noodles-based
+- Rice-based
+- Fried
+- Soup
+- Vegetarian / Vegan
+
+Keyword matching included both direct terms (e.g. "noodle", "rice") and common dish
+variants (e.g. "chow mein", "fried rice") to capture non-literal naming patterns.
+
+### Aggregation Logic
+
+- Item-level features were generated first (`menu_features.csv`)
+- Restaurant-level preference profiles were then computed by aggregating item-level
+  features (e.g. share of spicy items, fried items per restaurant)
+
+This two-level design allows both granular analysis and higher-level behavioral insights.
+
+---
+
+## Limitations
+
+This NLP approach intentionally prioritizes interpretability and robustness over linguistic
+completeness. As a result, several limitations exist:
+
+- Not all food characteristics are explicitly mentioned in item names (e.g. spiciness
+  may not be stated even if the dish is spicy)
+- Cultural and regional dish names (e.g. "mapo tofu", "laksa") may encode meaning that
+  keyword rules cannot fully capture
+- Vegetarian or meat-based classification may be incomplete when ingredients are not
+  explicitly listed
+- The approach does not account for contextual modifiers (e.g. "can be made spicy")
+
+These limitations mean that extracted preferences should be interpreted as **signals**
+rather than ground truth labels.
+
+---
+
+## Future Improvements
+
+With access to larger datasets or richer metadata, the NLP pipeline could be extended in
+several ways:
+
+- Expand keyword dictionaries using domain-specific food ontologies
+- Incorporate menu descriptions or ingredient lists where available
+- Apply TF-IDF or embedding-based similarity to capture semantic relationships between dishes
+- Introduce supervised classification using labeled cuisine or preference categories
+- Combine NLP outputs with behavioral signals (time, spend, roster context) for more
+  robust preference modeling
+
+---
+
+## Design Rationale
+
+Despite its simplicity, this rule-based NLP approach is well-suited for small to
+medium-sized analytical projects, providing transparent, explainable features that
+integrate seamlessly into downstream BI dashboards and machine learning workflows.
